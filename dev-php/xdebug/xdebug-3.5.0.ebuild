@@ -6,7 +6,7 @@ EAPI="8"
 PHP_EXT_NAME="xdebug"
 PHP_EXT_INI="yes"
 PHP_EXT_ZENDEXT="yes"
-PHP_EXT_INIFILE="3.0-xdebug.ini"
+PHP_EXT_INIFILE="3.5-xdebug.ini"
 
 USE_PHP="php8-1 php8-2 php8-3 php8-4 php8-5"
 PHP_EXT_NEEDED_USE="-threads(-)"
