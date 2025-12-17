@@ -23,5 +23,6 @@ src_compile() {
 }
 
 src_install() {
-	dobin "${PN}" /usr/bin/symfony
+	dobin "${PN}"
+	dosym "${PN}" /usr/bin/symfony
 }
